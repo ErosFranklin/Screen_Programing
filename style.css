@@ -5,7 +5,6 @@
 *{
     margin: 0;
     padding: 0;
-  
 }
 :root{
     /*Cor da Paleta*/
@@ -80,7 +79,17 @@ span{
     width: 40px;
     transform: translateY(6px);
 }
-footer{
+footer {
+    padding: 10px;
     margin:auto;
     text-align: center;
+    
+}
+#rodape a{
+    text-decoration: none;
+    color: #d7d7d7;
+}
+#rodape a:hover{
+    text-decoration: underline;
+    color: #aaaaaa;
 }
