@@ -1,0 +1,46 @@
+/*Typical Device Breakpoint
+----------------------------
+Telas pequenas: ate 600px
+Celular:de 600px ate 750px
+Tablet: 768px ate 993px
+Desktop: 992px ate 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #imagemLogin img{
+        width: 280px;
+        margin-top: 100px;
+        margin-left: 31px;
+        float:left;
+    }
+    #formLogin{
+        float:right;
+        width: 450px;
+        margin-top: 10%;
+        margin-right: 60px;
+    }
+    #formLogin input{
+        width: calc(100% - 15em);;
+    }
+    footer{
+        display: block;
+        margin-right: 605px;
+        font-size: 1.1em;
+    }
+}
+@media only screen and (min-width:992px){
+    #imagemLogin img{
+        width: 300px;
+    }
+    #formLogin input{
+        padding:10px;
+        width:calc(100% - 35em);
+    }
+    #formLogin #Enviar{
+        width: 30%;
+    }
+    #formLogin h1{
+        font-size: 2em;
+    }
+}

@@ -6,10 +6,11 @@
     <title>Screen Programing</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-querry.css">
 </head>
 <body>
     <header>
-
+        
     </header>
     <main>
         <section id="login">
@@ -17,7 +18,9 @@
                 <img src="imagens/ScreenPrograming.png" alt="Screen Programing">
             </div>
             <div id="formLogin" autocomplete="on">
+                <h1>Login<span class="material-symbols-outlined">login</span></h1>
                 <form action="login.js" method="post">
+                    
                     <p><span class="material-symbols-outlined">account_circle</span><input type="email" name="email" id="email"  placeholder="Email"  autocomplete="email" required></p>
                     <p><span class="material-symbols-outlined">key</span><input type="password" name="password" id="password" placeholder="Senha"   autocomplete="current-password" required></p>
                     <input type="submit" value="Enviar" id="Enviar">
