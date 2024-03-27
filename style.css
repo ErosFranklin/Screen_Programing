@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Principal';
+    src: url("fonte/FiraCode-VariableFont_wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+:root{
+    /*Cor da Paleta*/
+    --color1: #000000;
+    --color2: #202126;
+    --color3: #32343b;
+    --color4: #ffffff;
+    --color5: #d7d7d7;
+    /*Cor do Gradiente*/
+    --color6: #000000;
+    --color7: #202126;
+    --color8:#2e2f36;
+    --color9: rgb(115, 119, 139);
+    --color10:rgb(148, 153, 180);
+}
+body{
+    background-image: linear-gradient(to right, #000000,#202126 );
+    color:  #d7d7d7;
+    font-family: 'Principal';
+    font-size: 1em;
+}
+#imagemLogin img{
+    display:flex;
+    margin: auto;
+    width:300px;
+
+}
+#formLogin{
+    background: #d7d7d7;
+    box-shadow: 3px 3px 5px  #00000095;
+    color:#202126;
+    margin:auto;
+    padding:30px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#formLogin input{
+    background-color: #aaaaaa;
+    padding:10px;
+    margin: 10px 0px;
+    width: 40%;
+    border-radius: 5px;
+    border:0px;
+}
+
+#formLogin #Enviar{
+    margin:10px 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #202126;
+    color: #d7d7d7;
+    box-shadow: 2px 2px 5px  #0000007c;
+    cursor:pointer;
+}
+#formLogin #Enviar:hover{
+    background-color: #000000;
+}
+#formLogin a{
+    text-decoration: none;
+    color: #000000;
+}
+#formLogin a:hover{
+    text-decoration: underline;
+    color: #2e2f36;
+}
+span{
+    padding:5px;
+    font-size: 2em;
+    width: 40px;
+    transform: translateY(6px);
+}
+footer{
+    margin:auto;
+    text-align: center;
+}
