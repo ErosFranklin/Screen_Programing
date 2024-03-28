@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-querry.css">
+</head>
+<body id="Contatos">
+    <header>
+        <h1>Contatos</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html" target="_blank">SOBRE</a></li>
+                <li><a href="contatos.html" target="_blank">ENTRAR</a></li>
+                <li> <a href="creditos.html" target="_blank">CREDITOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="formContato">
+                <form action="contato.js" method="post">
+                    <p>
+                        <label for="nome"><strong>Nome:</strong></label>
+                        <p><input type="text" name="nome" id="nome" placeholder="Nome e Sobrenome*" required></p>
+                    </p>
+                    <p>
+                        <label for="email"><strong>Email:</strong></label>
+                        <p><input type="email" name="email" id="email" placeholder="Exemplo@gmail.com" required></p>
+                    </p>
+                    <p>
+                        <label for="assunto"><strong>Assunto:</strong></label>
+                        <p><input type="text" name="assunto" id="assunto" placeholder="Assunto*" required></p>
+                        
+                    </p>
+                    <p>
+                        <label for="msg"><strong>Mensagem:</strong></label><br>
+                        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <a href="login.html" id="Voltar">Voltar</a>
+                        <input type="submit" value="Enviar" id="enviarContato">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

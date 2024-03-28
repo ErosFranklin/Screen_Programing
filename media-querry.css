@@ -11,15 +11,16 @@ Grandes telas: acima de 1200px
 /*LOGIN*/
 @media only screen and (min-width:768px) and (max-width: 992px){
     #imagemLogin img{
-        width: 30vw;
+        width: 20vw;
+        transform: translateY(50%);
         margin-top: 100px;
-        margin-left: 31px;
+        margin-left: 30px;
         float:left;
     }
     #formLogin{
         float:right;
         width: 50vw;
-        margin-top: 10%;
+        margin-top: 20%;
         margin-right: 30px;
     }
     #formLogin input{
@@ -27,18 +28,20 @@ Grandes telas: acima de 1200px
     }
     footer{
         float: left;
-        margin: 0px 0px 0px 35px;
-        width: 35%;
+        transform: translateY(300%);
         font-size: 1.1em;
     }
 }
 @media only screen and (min-width:992px){
     #imagemLogin img{
-        width: 20vw;
+        width: 30vw;
+    }
+    #formLogin{
+        width: 50vw;
     }
     #formLogin input{
         padding:10px;
-        width:calc(100% - 35em);
+        width:calc(100% - 25em);
     }
     #formLogin #Enviar{
         width: 30%;
@@ -58,7 +61,8 @@ Grandes telas: acima de 1200px
     #formEsqSenha{
         float:right;
         width: 50vw;
-        margin-top: 10%;
+        margin-top: 25%;
+        margin-bottom: 15%;
         margin-right: 30px;
     }
     #formEsqSenha input{
@@ -75,9 +79,12 @@ Grandes telas: acima de 1200px
     #imagemLogin img{
         width: 20vw;
     }
+    #formEsqSenha{
+        width: 50vw;
+    }
     #formEsqSenha input{
         padding:10px;
-        width:calc(100% - 37.5em);
+        width:calc(100% - 25em);
     }
     #formEsqSenha #Enviar{
         width: 25%;
@@ -211,7 +218,7 @@ Grandes telas: acima de 1200px
         height: auto;
         padding: 20px;
         display:flex;
-        align-items: center;
+        align-items:center;
     }
     #Sobre div img{
         float:right;
@@ -225,8 +232,7 @@ Grandes telas: acima de 1200px
     }
     #Sobre #TextSobre p{
         float:left;
-        
-        font-size: 1.20em;
+        font-size: 1.4em;
         width: 50%;
         height: 100%;
         margin:35px;
@@ -256,5 +262,115 @@ Grandes telas: acima de 1200px
     #Sobre nav > ul > li > a:hover{
         text-decoration: underline;
         color:#aaaaaa;
+    }
+}
+
+/*Contatos*/
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #formContato{
+        width: 70vw;
+    }
+    #Contato header{
+        background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+        border-radius:5px;
+        margin:15px 10px;
+        height: auto;
+        padding: 20px;
+        display:flex;
+        align-items: center;
+    }
+    #Contato header h1{
+        float: left;
+        margin-bottom: 10px;
+    }
+    #formContato input{
+        width: 80%;
+    }
+    #formContato textarea{
+        width: 80%;
+    }
+    
+    #Contatos nav{
+        text-align: right;
+        margin-left: auto;
+        
+    }
+    #Contatos  nav > ul{
+        list-style: none;
+        padding:0px;
+        
+    }
+    #Contatos  nav > ul > li{
+        display: inline-block;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+    #Contatos  nav > ul > li > a{
+        text-decoration: none;
+        color:#d7d7d7;
+        font-size: 1.2em;
+    }
+    #Contatos  nav > ul > li > a:hover{
+        text-decoration: underline;
+        color:#aaaaaa;
+    }
+    #formContato #Voltar{
+        margin-left:20px;
+    }
+    
+}
+@media only screen and (min-width:992px){
+    #formContato{
+        width: 40vw;
+        margin: auto;
+    }
+    #Contatos header{
+        background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+        border-radius:5px;
+        margin:15px 10px;
+        height: auto;
+        padding: 10px;
+        display:flex;
+        align-items: center;
+    }
+    #Contatos header h1{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    #formContato input{
+        width: 80%;
+    }
+    #formContato textarea{
+        margin: 10px 40px;
+        width: 80%;
+    }
+    
+    #Contatos nav{
+        text-align: right;
+        margin-left: auto;
+        
+    }
+    #Contatos  nav > ul{
+        list-style: none;
+        padding:0px;
+        
+    }
+    #Contatos  nav > ul > li{
+        display: inline;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+    #Contatos  nav > ul > li > a{
+        text-decoration: none;
+        color:#d7d7d7;
+        font-size: 1.2em;
+    }
+    #Contatos  nav > ul > li > a:hover{
+        text-decoration: underline;
+        color:#aaaaaa;
+    }
+    #formContato #Voltar{
+        margin-left: 20px;
+
     }
 }
