@@ -3,8 +3,8 @@
     src: url("fonte/FiraCode-VariableFont_wght.ttf");
 }
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 :root{
     /*Cor da Paleta*/
@@ -82,7 +82,130 @@ body{
     text-decoration: underline;
     color: var(--color8);
 }
+/*
+    Sessao "esq_senha.html" ou aba do "Alterar senha"
+*/
 
+#formEsqSenha{
+    display:block;
+    background: var(--color5);
+    box-shadow: 3px 3px 5px  #00000095;
+    color:var(--color7);
+    margin:auto;
+    padding:30px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#formEsqSenha h1{
+    font-size: 1.2em;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 5px  #2021265e;
+}
+#formEsqSenha input{
+    background-color: #aaaaaa;
+    padding:10px;
+    margin: 10px 0px;
+    width:calc(100% -5em);
+    border-radius: 5px;
+    border:0px;
+}
+
+#formEsqSenha #Enviar{
+    margin:20px 0px;
+    font-size: 1em;
+    width: 40%;
+    height: 100%;
+    background-color: var(--color7);
+    color: var(--color5);
+    box-shadow: 2px 2px 5px  #0000007c;
+    cursor:pointer;
+    padding:10px;
+}
+#formEsqSenha #Enviar:hover{
+    background-color: var(--color1);
+}
+#formEsqSenha #Voltar {
+    margin:10px 0px;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background-color: var(--color2);
+    color:var(--color5);
+    font-size: 1em;
+    padding: 9.5px 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px  #0000007c;
+    transform: translateY(1px);
+    cursor:pointer;
+}
+#formEsqSenha #Voltar:hover{
+    background-color: var(--color1);
+    text-decoration: none;
+}
+#formEsqSenha a{
+    text-decoration: none;
+    color:  var(--color1);
+}
+#formEsqSenha a:hover{
+    text-decoration: underline;
+    color: var(--color8);
+}
+
+/*
+    Sessao "sobre.html" ou aba do "Sobre"
+*/
+#Sobre header{
+    background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+    border-radius:5px;
+    margin:15px 10px;
+    height: auto;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+}
+#Sobre div img{
+    float:right;
+    width: 25%;
+    transform: translate(-25%,25%);
+}
+#Sobre #TextSobre p{
+    float:left;
+    font-size: 1.45em;
+    width: 50%;
+    height: 100%;
+    margin:35px;
+    text-align: justify;
+    
+
+}
+#Sobre nav{
+    float: right;
+    margin-left: auto;
+}
+#Sobre nav > ul{
+    list-style: none;
+    padding:0px;
+    
+}
+#Sobre nav > ul > li{
+    display: inline;
+    margin-right: 25px;
+    font-weight: bold;
+}
+#Sobre nav > ul > li > a{
+    text-decoration: none;
+    color:#d7d7d7;
+    font-size: 1.2em;
+}
+#Sobre nav > ul > li > a:hover{
+    text-decoration: underline;
+    color:#aaaaaa;
+}
 span{
     padding:5px;
     font-size: 2em;
@@ -90,12 +213,13 @@ span{
     transform: translateY(8px);
 }
 footer {
-    display:block;
+    text-align: center;
     padding: 10px;
     margin:auto;
-    text-align: center;
+    display: block;
     
 }
+
 #rodape a{
     text-decoration: none;
     color: var(--color5);

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Programming</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-querry.css">
+</head>
+<body>
+    <header>
+        <!--<img src="imagens/ScreenPrograming.png" alt="Screen Programing">-->
+    </header>
+    <main>
+        <section id="login">
+            <div id="imagemLogin">
+                <img src="imagens/ScreenPrograming.png" alt="Screen Programing">
+            </div>
+            <div id="formEsqSenha" autocomplete="on">
+                <h1>Alterar Senha<span class="material-symbols-outlined">key_vertical</span></h1>
+                <form action="login.js" method="post">
+                    <p><span class="material-symbols-outlined"> mail</span><input type="email" name="email" id="email"  placeholder="Digite o email de recuperacao"  autocomplete="email" required></p>
+                    <input type="submit" value="Enviar" id="Enviar">
+                    <a href="login.html" id="Voltar">Voltar</a>
+                    <p>Enviaremos uma mensagem no <strong>Email</strong> cadastrado.</p>
+                </form>
+            </div>
+        </section>
+        <footer id="rodape">
+            <p><a href="sobre.html" target="_blank">SOBRE</a> | <a href="contatos.html" target="_blank">CONTATOS</a> | <a href="creditos.html" target="_blank">CREDITOS</a></p>
+        </footer>
+    </main>
+    
+</body>
+</html>
