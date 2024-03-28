@@ -46,4 +46,59 @@ Grandes telas: acima de 1200px
         font-size: 2em;
     }
 }
-/* TELA ALTERAR SENHA*/
+/* TELA   CADASTRO*/
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #formCadastro{
+        margin:auto;
+        width:80vw;
+        height: auto;
+        transform: translate(-1%,3%);
+    }
+    #formCadastro input{
+        width: 60%;
+        float:right;
+        transform: translateY(-31.5px);
+    }
+    #formCadastro label{
+        float:left;
+        display:flex;
+        width: 40%;
+
+    }
+    #formCadastro #enviarCadastro{
+        margin-top: 6%;
+    }
+    
+    footer{
+        text-align:center;
+        margin: auto;
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width:992px){
+    #formCadastro{
+        margin:auto;
+        margin-top:15px;
+        width:45vw;
+        height: auto;
+    }
+    #formCadastro h1{
+        font-size: 2em;
+    }
+    #formCadastro label{
+        float:left;
+        margin: 10px;
+    }
+    #formCadastro input{
+        margin:10px 10px 0px 30px;
+        width:38vw;
+        float: left;
+    }
+    #formCadastro #enviarCadastro{
+        float:right;
+        font-size: 1em;
+    }
+    #formCadastro #Voltar{
+        margin-top: 18px;
+    }
+}
