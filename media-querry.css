@@ -145,6 +145,7 @@ Grandes telas: acima de 1200px
         float:right;
         font-size: 1em;
         margin-top: 16px;
+        margin-right: 25px;
     }
     #formCadastro #Voltar{
         margin-top: 18px;
@@ -203,11 +204,17 @@ Grandes telas: acima de 1200px
     #Sobre nav > ul > li > a{
         text-decoration: none;
         color:#d7d7d7;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     #Sobre nav > ul > li > a:hover{
         text-decoration: underline;
         color:#aaaaaa;
+    }
+    #Sobre span{
+        padding:1px;
+        font-size: 1em;
+        width: 10px;
+        transform: translateY(15%);
     }
 }
 @media only screen and (min-width:992px){
@@ -263,6 +270,12 @@ Grandes telas: acima de 1200px
         text-decoration: underline;
         color:#aaaaaa;
     }
+    #Sobre span{
+        padding:5px;
+        font-size: 1em;
+        width: 10px;
+        transform: translateY(15%);
+    }
 }
 
 /*Contatos*/
@@ -316,6 +329,12 @@ Grandes telas: acima de 1200px
     }
     #formContato #Voltar{
         margin-left:20px;
+    }
+    #formContato span{
+        padding: 2px;
+        font-size: 1em;
+        width: 5%;
+        transform: translate(-5%,10%);
     }
     
 }
@@ -372,5 +391,11 @@ Grandes telas: acima de 1200px
     #formContato #Voltar{
         margin-left: 20px;
 
+    }
+    #formContato span{
+        padding: 2px;
+        font-size: 1em;
+        width: 5%;
+        transform: translate(-5%,10%);
     }
 }
