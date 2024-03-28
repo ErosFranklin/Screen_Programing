@@ -13,23 +13,24 @@
 
     </header>
     <main>
-        <section >
+        <section>
             <div id="formCadastro">
                 <h1>Cadastro<span class="material-symbols-outlined">id_card</span></h1>
                 <h3>Realize o cadastro para ter acesso ao site.</h3>
-                <p><label for="nome">Nome Completo:</label></p>
-                <p><input type="text" name="nome" id="nome" placeholder="Nome e Sobrenome*" required></p>
-                <p><label for="email">Email:</label></p>
-                <p><input type="email" name="email" id="email" placeholder="Email*" required></p>
-                <p><label for="dataNasc">Data de Nascimento:</label> </p>
-                <p><input type="date" name="dataNasc" id="dataNasc" placeholder="Data" required></p>
-                <p> <label for="senha">Senha:</label></p>
-                <p> <input type="password" name="senha" id="senha" placeholder="Senha*" required></p>
-                <p><label for="confsenha">Confirmar senha:</label></p>
-                <p><input type="password" name="confsenha" id="confsenha" placeholder="Confirmar Senha*" required></p>
-                <a href="login.html" id="Voltar">Voltar</a>
-                <input type="submit" value="Cadastra-se" id="enviarCadastro">
-                
+                <form action="cadastro.js" method="post">
+                    <p><label for="nome">Nome Completo:</label></p>
+                    <p><input type="text" name="nome" id="nome" placeholder="Nome e Sobrenome*" required></p>
+                    <p><label for="email">Email:</label></p>
+                    <p><input type="email" name="email" id="email" placeholder="Email*" required></p>
+                    <p><label for="dataNasc">Data de Nascimento:</label> </p>
+                    <p><input type="date" name="dataNasc" id="dataNasc" placeholder="Data" required></p>
+                    <p> <label for="senha">Senha:</label></p>
+                    <p> <input type="password" name="senha" id="senha" placeholder="Senha*" required></p>
+                    <p><label for="confsenha">Confirmar senha:</label></p>
+                    <p><input type="password" name="confsenha" id="confsenha" placeholder="Confirmar Senha*" required></p>
+                    <a href="login.html" id="Voltar">Voltar</a>
+                    <input type="submit" value="Cadastrar" id="enviarCadastro">
+                </form>
             </div>
         </section>
     </main>

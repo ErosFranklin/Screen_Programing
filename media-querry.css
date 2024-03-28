@@ -7,7 +7,8 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 
-/* TELA DE LOGIN*/
+
+/*LOGIN*/
 @media only screen and (min-width:768px) and (max-width: 992px){
     #imagemLogin img{
         width: 30vw;
@@ -26,8 +27,8 @@ Grandes telas: acima de 1200px
     }
     footer{
         float: left;
-        margin: 0px 0px 0px 30px;
-        width: 30%;
+        margin: 0px 0px 0px 35px;
+        width: 35%;
         font-size: 1.1em;
     }
 }
@@ -43,6 +44,45 @@ Grandes telas: acima de 1200px
         width: 30%;
     }
     #formLogin h1{
+        font-size: 2em;
+    }
+}
+/* ALTERAR SENHA*/
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #imagemLogin img{
+        width: 30vw;
+        margin-top: 100px;
+        margin-left: 31px;
+        float:left;
+    }
+    #formEsqSenha{
+        float:right;
+        width: 50vw;
+        margin-top: 10%;
+        margin-right: 30px;
+    }
+    #formEsqSenha input{
+        width: calc(100% - 15em);;
+    }
+    footer{
+        float: left;
+        margin: 0px 0px 0px 35px;
+        width: 35%;
+        font-size: 1.1em;
+    }
+}
+@media only screen and (min-width:992px){
+    #imagemLogin img{
+        width: 20vw;
+    }
+    #formEsqSenha input{
+        padding:10px;
+        width:calc(100% - 37.5em);
+    }
+    #formEsqSenha #Enviar{
+        width: 25%;
+    }
+    #formEsqSenha h1{
         font-size: 2em;
     }
 }
@@ -66,7 +106,7 @@ Grandes telas: acima de 1200px
 
     }
     #formCadastro #enviarCadastro{
-        margin-top: 6%;
+        margin-top: 7px;
     }
     
     footer{
@@ -97,8 +137,124 @@ Grandes telas: acima de 1200px
     #formCadastro #enviarCadastro{
         float:right;
         font-size: 1em;
+        margin-top: 16px;
     }
     #formCadastro #Voltar{
         margin-top: 18px;
+    }
+}
+/*SOBRE*/
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #Sobre header{
+        background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+        border-radius:5px;
+        margin:15px 10px;
+        height: auto;
+        padding: 20px;
+    }
+    #Sobre header h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #Sobre div img{
+        float:right;
+        width: 30%;
+        transform: translate(-20%,2%);
+    }
+    #Sobre div h1{
+        text-align: center;
+        font-size: 2em;
+        width: 40%;
+        height: 100%;
+        transform: translateX(-4%);
+    }
+    #Sobre #TextSobre p{
+        float:left;
+        font-size: 1em;
+        width: 50%;
+        height: 100%;
+        margin:35px;
+        text-align: justify;
+        
+    
+    }
+    #Sobre nav{
+        text-align: center;
+        margin-left: auto;
+        
+    }
+    #Sobre nav > ul{
+        list-style: none;
+        padding:0px;
+        
+    }
+    #Sobre nav > ul > li{
+        display: inline;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+    #Sobre nav > ul > li > a{
+        text-decoration: none;
+        color:#d7d7d7;
+        font-size: 1em;
+    }
+    #Sobre nav > ul > li > a:hover{
+        text-decoration: underline;
+        color:#aaaaaa;
+    }
+}
+@media only screen and (min-width:992px){
+    #Sobre header{
+        background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+        border-radius:5px;
+        margin:15px 10px;
+        height: auto;
+        padding: 20px;
+        display:flex;
+        align-items: center;
+    }
+    #Sobre div img{
+        float:right;
+        width: 25%;
+        transform: translate(-45%,2%);
+    }
+    #Sobre div h1{
+        display: inline-block;
+        width: 30%;
+        transform: translateX(30%);
+    }
+    #Sobre #TextSobre p{
+        float:left;
+        
+        font-size: 1.20em;
+        width: 50%;
+        height: 100%;
+        margin:35px;
+        text-align: justify;
+        
+    
+    }
+    #Sobre nav{
+        float: right;
+        margin-left: auto;
+    }
+    #Sobre nav > ul{
+        list-style: none;
+        padding:0px;
+        
+    }
+    #Sobre nav > ul > li{
+        display: inline;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+    #Sobre nav > ul > li > a{
+        text-decoration: none;
+        color:#d7d7d7;
+        font-size: 1.2em;
+    }
+    #Sobre nav > ul > li > a:hover{
+        text-decoration: underline;
+        color:#aaaaaa;
     }
 }
