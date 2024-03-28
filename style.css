@@ -436,6 +436,76 @@ body{
     width: 5%;
     transform: translateY(15%);
 }
+/*CREDITOS*/
+
+#Creditos header{
+    background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+    border-radius:5px;
+    margin:15px 10px;
+    height: auto;
+    padding: 30px;
+}
+#Creditos header h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px black;
+}
+#Creditos nav{
+text-align: center;
+margin-left: auto;
+}
+#Creditos nav > ul{
+    list-style: none;
+    padding:0px;
+}
+#Creditos nav > ul > li{
+    display: inline;
+    margin-right: 25px;
+    font-weight: bold;
+}
+#Creditos nav > ul > li > a{
+    text-decoration: none;
+    color:#d7d7d7;
+    font-size: 1em;
+    text-shadow: 1px 1px 5px black;
+}
+#Creditos nav > ul > li > a:hover{
+    text-decoration: underline;
+    color:#aaaaaa;
+}
+
+#bodyCreditos{
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    box-shadow: 3px 3px 5px  #00000095;
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+}
+#bodyCreditos h1{
+    color:var(--color7);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
+}
+#bodyCreditos p{
+    padding: 5px;
+    color:var(--color8);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+#bodyCreditos img{
+    width: 60%;
+}
+#Creditos span{
+    padding: 2px;
+    font-size: 1em;
+    width: 5%;
+    transform: translateY(15%);
+}
+    
 span{
     padding:5px;
     font-size: 2em;

@@ -399,3 +399,112 @@ Grandes telas: acima de 1200px
         transform: translate(-5%,10%);
     }
 }
+/*CREDITOS*/
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #bodyCreditos{
+        width: 70vw;
+        height:auto;
+        margin: auto;
+    }
+    #bodyCreditos img{
+        width: 60%;
+    }
+    #Creditos header{
+        background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+        border-radius:5px;
+        margin:15px 10px;
+        height: auto;
+        padding: 10px;
+        display:flex;
+        align-items: center;
+    }
+    #Creditos header h1{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    #Creditos nav{
+        text-align: right;
+        margin-left: auto;
+        
+    }
+    #Creditos  nav > ul{
+        list-style: none;
+        padding:0px;
+        
+    }
+    #Creditos  nav > ul > li{
+        display: inline;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+    #Creditos  nav > ul > li > a{
+        text-decoration: none;
+        color:#d7d7d7;
+        font-size: 1.2em;
+    }
+    #Creditos  nav > ul > li > a:hover{
+        text-decoration: underline;
+        color:#aaaaaa;
+    }
+    #Creditos span{
+        padding: 2px;
+        font-size: 1em;
+        width: 5%;
+        transform: translate(-5%,10%);
+    }
+}
+@media only screen and (min-width:992px){
+    #bodyCreditos{
+        width: 40vw;
+        height:auto;
+        margin: auto;
+    }
+    #bodyCreditos img{
+        width: 50%;
+    }
+    #Creditos header{
+        background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
+        border-radius:5px;
+        margin:15px 10px;
+        height: auto;
+        padding: 10px;
+        display:flex;
+        align-items: center;
+    }
+    #Creditos header h1{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    #Creditos nav{
+        text-align: right;
+        margin-left: auto;
+        
+    }
+    #Creditos  nav > ul{
+        list-style: none;
+        padding:0px;
+        
+    }
+    #Creditos  nav > ul > li{
+        display: inline;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+    #Creditos  nav > ul > li > a{
+        text-decoration: none;
+        color:#d7d7d7;
+        font-size: 1.2em;
+    }
+    #Creditos  nav > ul > li > a:hover{
+        text-decoration: underline;
+        color:#aaaaaa;
+    }
+    #Creditos span{
+        padding: 2px;
+        font-size: 1em;
+        width: 5%;
+        transform: translate(-5%,10%);
+    }
+}
