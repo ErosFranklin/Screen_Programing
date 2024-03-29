@@ -61,7 +61,7 @@ body{
     background-color: #aaaaaa;
     padding:15px;
     margin: 10px 0px;
-    width:calc(100% - 5em);
+    width:calc(100% - 10em);
     border-radius: 5px;
     border:0px;
 }
@@ -162,6 +162,9 @@ body{
 #formEsqSenha a:hover{
     text-decoration: underline;
     color: var(--color8);
+}
+#formEsqSenha span{
+    padding:9px;
 }
 
 /*
@@ -518,9 +521,10 @@ span{
 footer {
     text-align: center;
     padding: 10px;
-    margin:auto;
-    display: block;
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #rodape a{

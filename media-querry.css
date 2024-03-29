@@ -27,6 +27,10 @@ Grandes telas: acima de 1200px
         width: calc(100% - 15em);;
     }
     footer{
+        text-align: center;
+        padding: 10px;
+        margin:auto;
+        display: block;
         float: left;
         transform: translateY(300%);
         font-size: 1.1em;
@@ -60,13 +64,13 @@ Grandes telas: acima de 1200px
     }
     #formEsqSenha{
         float:right;
-        width: 50vw;
+        width: 40vw;
         margin-top: 25%;
         margin-bottom: 15%;
         margin-right: 30px;
     }
     #formEsqSenha input{
-        width: calc(100% - 15em);;
+        width: calc(100% - 25em);;
     }
     footer{
         float: left;
