@@ -87,6 +87,9 @@ body{
     text-decoration: underline;
     color: var(--color8);
 }
+#formLogin span{
+    padding:9px;
+}
 /*
     Sessao "esq_senha.html" ou aba do "Alterar senha"
 */
