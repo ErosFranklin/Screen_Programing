@@ -33,6 +33,8 @@ body{
     margin-top: 20px;
 
 }
+    
+
 #formLogin{
     display:block;
     background: var(--color5);
@@ -44,6 +46,10 @@ body{
     height: auto;
     text-align: center;
     border-radius: 10px;
+
+    transition : width .3s, height .3s;
+    transition-timing-function: ease;
+    
 
 }
 #formLogin h1{
@@ -105,6 +111,9 @@ body{
     height: auto;
     text-align: center;
     border-radius: 10px;
+
+    transition : width .3s, height .3s;
+    transition-timing-function: ease;
 
 }
 #formEsqSenha h1{
@@ -170,6 +179,10 @@ body{
 /*
     Sessao "sobre.html" ou aba do "Sobre"
 */
+#Sobre{
+    transition : width .3s, height .3s;
+    transition-timing-function: ease;
+}
 #Sobre header{
     background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
     border-radius:5px;
@@ -250,6 +263,8 @@ body{
     height:auto;
     text-align: center;
     border-radius: 10px;
+    transition : width .3s, height .3s;
+    transition-timing-function: ease;
 
 }
 #formCadastro h1{
@@ -330,6 +345,8 @@ body{
 /*Contatos*/
 #Contatos{
     font-size: 1em;
+    transition : width .3s, height .3s;
+    transition-timing-function: ease;
 }
 #Contatos header{
     background-image: linear-gradient(to right, var(--color3),#32343b88, #32343b38, #32343b00 );
@@ -492,6 +509,8 @@ margin-left: auto;
     margin:auto;
     text-align: center;
     padding: 10px;
+    transition : width .3s, height .3s;
+    transition-timing-function: ease;
 }
 #bodyCreditos h1{
     color:var(--color7);
@@ -521,7 +540,11 @@ span{
 footer {
     text-align: center;
     padding: 10px;
+    height: auto;
     position: fixed;
+    display:block;
+    width: auto;
+    height: auto;
     bottom: 0;
     left: 0;
     right: 0;
