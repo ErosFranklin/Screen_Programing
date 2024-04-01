@@ -42,6 +42,7 @@ Grandes telas: acima de 1200px
         width: 10vw;
     }
     #formLogin{
+        padding: 1.5%;
         width: 40vw;
         height: 320px;
     }
@@ -77,6 +78,7 @@ Grandes telas: acima de 1200px
         width: 50vw;
         margin-top: 20%;
         margin-right: 30px;
+        padding: 1.5%;
 
     }
     #formEsqSenha input{
