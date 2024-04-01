@@ -173,7 +173,9 @@ body{
     color: var(--color8);
 }
 #formEsqSenha span{
-    padding:9px;
+    padding:10px;
+    transform: translateY(15%);
+    font-size: 25px;
 }
 
 /*

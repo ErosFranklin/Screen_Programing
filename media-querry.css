@@ -47,7 +47,7 @@ Grandes telas: acima de 1200px
     }
     #formLogin input{
         padding:10px;
-        width:calc(100% - 25em);
+        width:calc(100% - 20em);
     }
     #formLogin #Enviar{
         width: 30%;
@@ -80,7 +80,7 @@ Grandes telas: acima de 1200px
 
     }
     #formEsqSenha input{
-        width: calc(100% - 15em);;
+        width: calc(100% - 10em);;
     }
     #footer{
         text-align: center;
