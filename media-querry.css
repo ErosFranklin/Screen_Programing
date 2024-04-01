@@ -43,7 +43,7 @@ Grandes telas: acima de 1200px
     }
     #formLogin{
         width: 40vw;
-        height: 25vw;
+        height: 320px;
     }
     #formLogin input{
         padding:10px;
