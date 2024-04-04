@@ -3,16 +3,12 @@ const message = require("../services/message.services");
 
 const create = async(req, res) => {
     try {
-        const { name, email, password, confirmpassword } = req.body;
+        const { name, email, password} = req.body;
 
-        if (!name  || !email || !password || !confirmpassword) {
-            console.log(name, email, password, confirmpassword)
+        if (!name  || !email || !password) {
+            console.log(name, email, password)
             return res.status(400).send({ message: "Todos os campos precisam estar preenchidos" });
             
-        }
-
-        if (password !== confirmpassword) {
-            return res.status(400).send({ message: "As senhas não coincidem" });
         }
 
         const user = await userService.create(req.body);
